@@ -115,11 +115,12 @@ hr {
 .section-1 img {
     display: block;
     margin: auto;
+    max-height: 100%;
 }
 
 /* SECTION 2 */
 .section-2 {
-    height: 100vh;
+    height: 80vh;
     background: #f6f3e9;
 }
 
@@ -144,5 +145,5 @@ hr {
 }
 
 .section-2 button:hover {
-    background-color: #f78a7b;
+    background-color: #862a21;
 }
