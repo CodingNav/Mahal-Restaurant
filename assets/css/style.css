@@ -10,7 +10,7 @@ body {
 
 /* HOME SECTION 1 */
 .home-section-1 {
-    height: 100vh;
+    min-height: 100vh;
     background: #0c444c;
 }
 
@@ -73,7 +73,8 @@ hr {
     padding-top: 30px;
 }
 
-.home-section-2 button {
+.home-section-2 .blue-btn {
+    display: inline-block;
     background-color: #0c444c;
     border: none;
     color: white;
@@ -82,11 +83,11 @@ hr {
     margin-top: 30px;
 }
 
-.home-section-2 button:focus {
+.home-section-2 .blue-btn:focus {
     outline: none;
 }
 
-.home-section-2 button:hover {
+.home-section-2 .blue-btn:hover {
     background-color: #18737d;
 }
 
@@ -139,7 +140,7 @@ hr {
     letter-spacing: 3px;
 }
 
-.section-2 button {
+.section-2 .blue-btn {
         border-radius: 0;
         width: 185px;
         padding: 10px;
@@ -150,7 +151,7 @@ hr {
         letter-spacing: 2px;
 }
 
-.section-2 button:hover {
+.section-2 .blue-btn:hover {
     background-color: #862a21;
 }
 
