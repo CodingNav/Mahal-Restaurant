@@ -129,7 +129,7 @@ nav {
   padding-top: 30px;
 }
 
-a:hover {
+.sidebar-item a:hover {
   color: #00454d;
   text-decoration: none;
 }

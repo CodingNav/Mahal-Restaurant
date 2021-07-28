@@ -8,6 +8,49 @@ body {
     flex: 1;
 }
 
+/* BUTTONS */
+a:hover {
+    color: #f6f3e8;
+    text-decoration: none;
+}
+
+.blue-btn {
+    display: inline-block;
+    background-color: #0c444c;
+    border: none;
+    color: #f6f3e8;
+    padding: .5em 1.2em;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.blue-btn:focus {
+    outline: none;
+}
+
+.blue-btn:hover {
+    background-color: #18737d;
+}
+
+.orange-btn {
+    display: inline-block;
+    background-color: #862a21;
+    border: none;
+    color: #f6f3e8;
+    padding: .5em 1.2em;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.orange-btn:focus {
+    outline: none;
+}
+
+.orange-btn:hover {
+    background-color: #b44738;
+    color: #f6f3e8;
+}
+
 /* HOME SECTION 1 */
 .home-section-1 {
     min-height: 100vh;
@@ -73,30 +116,38 @@ hr {
     padding-top: 30px;
 }
 
-.home-section-2 .blue-btn {
-    display: inline-block;
-    background-color: #0c444c;
-    border: none;
-    color: white;
-    padding: .5em 1.2em;
-    letter-spacing: 1px;
-    margin-top: 30px;
+/* HOME EVENT CONTACT */
+.home-event {
+    height: 50vh;
+    background-color: #0c444c;   
 }
 
-.home-section-2 .blue-btn:focus {
-    outline: none;
+.event-center {
+    position: relative;
+    text-align: center;
+    transform: translatey(-50%);
+    top: 50%;
 }
 
-.home-section-2 .blue-btn:hover {
-    background-color: #18737d;
+.event-center h1 {
+    font-family: 'Yatra One', cursive;
+    color: #f6f3e9;
+    letter-spacing: 2.5px;
+    padding-bottom: 20px;
 }
 
-/* HOME SECTION 3 */
+/* HOME IMAGE CAROUSEL */
 
-.home-section-3 {
+.image-carousel {
     height: 100vh;
     background-color: #f6f3e8;
 }
+
+
+
+
+
+
 
 @media (max-width: 767px) {
 
