@@ -64,7 +64,7 @@ a:hover {
 /* HOME SECTION 2 */
 
 .section-2 {
-    height: 100vh;
+    min-height: 100vh;
     background: #f6f3e9;
 }
 
