@@ -18,3 +18,14 @@ $(document).ready(function() {
     });
   
   });
+
+  // Home Page Image Carousel Initializer
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    slidesPerColumn: 2,
+    spaceBetween: 15,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

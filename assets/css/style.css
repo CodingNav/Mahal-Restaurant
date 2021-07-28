@@ -95,7 +95,7 @@ hr {
 
 .home-section-3 {
     height: 100vh;
-    background: #ffffff;
+    background-color: #0c444c;
 }
 
 @media (max-width: 767px) {
@@ -157,6 +157,6 @@ hr {
 
 footer {
     color: white;
-    background-color: #0c444c;
+    background-color: #c23d30;
     padding: 100px;
 }
