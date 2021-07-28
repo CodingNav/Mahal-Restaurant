@@ -183,9 +183,16 @@ hr {
 }
 
 
+/* FOOTER CSS */
+footer {
+    color: white;
+    background-color: #c23d30;
+    padding: 100px;
+}
 
 
 
+/* MOBILE RESPONSIVENESS */
 @media (max-width: 767px) {
 
 /* HOME SECTION 2 */
@@ -199,52 +206,4 @@ hr {
     .vertical-center {
         padding: 25px;
     }
-}
-
-/* SECTION 1 */
-.section-1 {
-    height: 20vh;
-    background: #0c444c;
-}
-
-.section-1 img {
-    display: block;
-    margin: auto;
-    max-height: 100%;
-}
-
-/* SECTION 2 */
-.section-2 {
-    height: 80vh;
-    background: #f6f3e9;
-}
-
-.section-2 h1 {
-    font-family: serif;
-    color: #bc9e5a;
-    font-size: 3.5rem;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    letter-spacing: 3px;
-}
-
-.section-2 .blue-btn {
-        border-radius: 0;
-        width: 185px;
-        padding: 10px;
-        margin-top: 12px;
-        border: none;
-        color: white;
-        background-color: #b44738;
-        letter-spacing: 2px;
-}
-
-.section-2 .blue-btn:hover {
-    background-color: #862a21;
-}
-
-footer {
-    color: white;
-    background-color: #c23d30;
-    padding: 100px;
 }
