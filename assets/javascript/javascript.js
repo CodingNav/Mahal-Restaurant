@@ -19,7 +19,8 @@ $(document).ready(function() {
   
   });
 
-  // Home Page Image Carousel Initializer
+if (document.querySelector(".mySwiper")) {
+   // Home Page Image Carousel Initializer
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     slidesPerColumn: 2,
@@ -29,3 +30,5 @@ $(document).ready(function() {
       clickable: true,
     },
   });
+}
+ 
