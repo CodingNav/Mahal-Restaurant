@@ -34,17 +34,14 @@ if (document.querySelector(".mySwiper")) {
       640: {
         slidesPerView: 1,
         slidesPerColumn: 1,
-        spaceBetween: 0,
       },
       768: {
         slidesPerView: 2,
         slidesPerColumn: 2,
-        spaceBetween: 0,
       },
       1024: {
         slidesPerView: 3,
         slidesPerColumn: 2,
-        spaceBetween: 0,
       },
     },
   });
