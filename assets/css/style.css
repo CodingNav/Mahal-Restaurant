@@ -187,6 +187,16 @@ footer {
     color: white;
     background-color: #c23d30;
     padding: 100px;
+    letter-spacing: 3px;
+}
+
+footer ul {
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+footer .fab {
+    font-size: 30px;
 }
 
 /* MENU CSS */
@@ -198,6 +208,7 @@ footer {
     margin-top: 40px;
     font-size: 5rem;
     letter-spacing: 2.5px;
+    line-height: 26px;
     font-family: 'Yatra One', cursive;
     color: #b89e64;
 }
