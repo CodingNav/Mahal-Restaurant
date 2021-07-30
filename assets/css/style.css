@@ -53,12 +53,8 @@ a:hover {
 
 /* SECTION 1 */
 .section-1 {
+    text-align: center;
     background: #0c444c;
-}
-
-.section-1 img {
-    display: block;
-    margin: auto;
 }
 
 /* SECTION 2 */
@@ -190,6 +186,10 @@ footer {
     color: #f6f3e8;
 }
 
+footer a {
+    color: #f6f3e8;
+}
+
 footer .row:first-child {
     margin-bottom: 50px;
 }
@@ -199,16 +199,12 @@ footer ul {
     line-height: 30px;
 }
 
-footer ul li:hover {
+footer a:hover {
     color: #0c444c;
 }
 
 footer .fab {
     font-size: 30px;
-}
-
-footer .fab:hover {
-    color: #0c444c;
 }
 
 /* MENU CSS */
@@ -228,6 +224,7 @@ footer .fab:hover {
 /* CONTACT CSS */
 .contact-section {
     letter-spacing: 2px;
+    background: #f6f3e9;
     color: #0c444c; 
 }
 .contact-section h1 {
