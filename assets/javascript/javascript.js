@@ -56,7 +56,10 @@ contactForm.addEventListener('submit', function (e) {
   var numberInput = document.querySelector("#number-input");
   var subjectInput = document.querySelector("#subject-input");
   var messageInput = document.querySelector("#message-input");
+  var submitButton = document.querySelector("#submit-button");
 
+  submitButton.disabled = true;
+  
   var emailData = {
     name: nameInput.value,
     email: emailInput.value,
