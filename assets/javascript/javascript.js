@@ -75,6 +75,6 @@ contactForm.addEventListener('submit', function (e) {
   }).then(function (response) {
     return response.json();
   }).then(function (data) {
-    console.log(data);
+    contactForm.innerHTML = `<p class="text-center">Thank you for submitting.<br>We will be in contact with you soon</p>`
   });
 });
