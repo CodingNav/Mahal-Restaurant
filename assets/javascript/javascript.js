@@ -66,6 +66,7 @@ contactForm.addEventListener('submit', function (e) {
   }
 
   fetch('https://mahal-email.herokuapp.com/api/send-email', {
+    mode: 'no-cors',
     method: 'post',
     body: JSON.stringify(emailData),
     headers: {
