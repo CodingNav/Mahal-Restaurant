@@ -59,7 +59,7 @@ contactForm.addEventListener('submit', function (e) {
   var submitButton = document.querySelector("#submit-button");
 
   submitButton.disabled = true;
-  
+
   var emailData = {
     name: nameInput.value,
     email: emailInput.value,
@@ -80,4 +80,8 @@ contactForm.addEventListener('submit', function (e) {
   }).then(function (data) {
     contactForm.innerHTML = `<p class="text-center">Thank you for submitting.<br>We will be in contact with you soon.</p>`
   });
+});
+
+document.addEventListener('scroll', function() {
+  
 });
