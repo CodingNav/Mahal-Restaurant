@@ -225,6 +225,25 @@ footer .fab:hover {
     color: #b89e64;
 }
 
+/* CONTACT CSS */
+.contact-section {
+    letter-spacing: 2px;
+    color: #0c444c; 
+}
+.contact-section h1 {
+    margin: 80px;
+    font-size: 5rem;
+    letter-spacing: 2.5px;
+    line-height: 26px;
+    font-family: 'Yatra One', cursive;
+    color: #b89e64;
+}
+
+.contact-section form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 /* MOBILE RESPONSIVENESS */
 @media (max-width: 992px) {
     /* SECTION 2 */
