@@ -191,7 +191,7 @@ hr {
 footer {
     padding: 100px 100px 0px 100px;
     letter-spacing: 3px;
-    background-color: #c23d30;
+    background-color: #b44738;
     color: #f6f3e8;
 }
 
@@ -265,6 +265,13 @@ footer .fab {
     .section-2 h1 {
         font-size: 30px;
     }
+    /* FOOTER */
+    footer {
+        padding: 50px 50px 0px 50px;
+    }
+    footer ul {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -282,10 +289,23 @@ footer .fab {
     /* HOME IMAGE CARASOUL */
     .image-carousel {
         height: unset;
-        max-height: 55vh;
+        max-height: 70vh;
     }
     .swiper-container {
         height: unset;
+    }
+    /* FOOTER */
+    footer {
+        text-align: center;
+    }
+    footer img {
+        max-width: 25%;
+    }
+    footer .section {
+        margin-top: 25px;
+    }
+    footer a i {
+        margin-right: 10px;
     }
 }
 
@@ -301,5 +321,9 @@ footer .fab {
     }
     .swiper-container {
         height: unset;
+    }
+    /* FOOTER */
+    footer img {
+        max-width: 50%;
     }
 }
