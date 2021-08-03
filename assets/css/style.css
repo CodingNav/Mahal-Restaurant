@@ -57,6 +57,10 @@ a:hover {
     background: #0c444c;
 }
 
+.section-1 #main-img {
+    max-height: 100vh;
+}
+
 /* SECTION 2 */
 
 .section-2 {
