@@ -316,6 +316,9 @@ footer .fab {
     .contact-section p {
         margin-top: 10px;
     }
+    .form-group-btn {
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {
