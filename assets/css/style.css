@@ -9,6 +9,7 @@ body {
 }
 
 /* BUTTONS */
+
 a:hover {
     color: #f6f3e8;
     text-decoration: none;
@@ -52,6 +53,11 @@ a:hover {
 }
 
 /* SECTION 1 */
+
+.logo {
+    width: 15%;
+}
+
 .section-1 {
     text-align: center;
     background: #0c444c;
@@ -116,9 +122,10 @@ hr {
 }
 
 /* HOME EVENT CONTACT */
+
 .home-event {
-    height: 50vh;
-    background-color: #0c444c;   
+    height: 55vh;
+    background-color: #0c444c;
 }
 
 .event-center {
@@ -134,7 +141,6 @@ hr {
     letter-spacing: 2.5px;
     padding: 0px 20px 20px 20px;
 }
-
 
 /* HOME IMAGE CAROUSEL */
 
@@ -157,7 +163,6 @@ hr {
     text-align: center;
     font-size: 18px;
     height: calc((100% - 30px) / 2);
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -181,8 +186,8 @@ hr {
     padding: 15px;
 }
 
-
 /* FOOTER CSS */
+
 footer {
     padding: 100px 100px 0px 100px;
     letter-spacing: 3px;
@@ -212,10 +217,12 @@ footer .fab {
 }
 
 /* MENU CSS */
+
 .menu-section {
     height: 100vh;
     background: #f6f3e9;
 }
+
 .menu-section h1 {
     margin: 80px;
     font-size: 5rem;
@@ -226,11 +233,13 @@ footer .fab {
 }
 
 /* CONTACT CSS */
+
 .contact-section {
     letter-spacing: 2px;
     background: #f6f3e9;
-    color: #0c444c; 
+    color: #0c444c;
 }
+
 .contact-section h1 {
     margin: 80px;
     font-size: 5rem;
@@ -246,20 +255,19 @@ footer .fab {
 }
 
 /* MOBILE RESPONSIVENESS */
+
 @media (max-width: 992px) {
+    /* SECTION 1 */
+    .logo {
+        width: 25%;
+    }
     /* SECTION 2 */
     .section-2 h1 {
         font-size: 30px;
     }
 }
+
 @media (max-width: 767px) {
-
-    /* SECTION 1 */
-    #logo {
-        width: 40%;
-    }
-    
-
     /* SECTION 2 */
     .section-2 {
         height: auto;
@@ -270,5 +278,28 @@ footer .fab {
     }
     .vertical-center {
         padding: 25px;
+    }
+    /* HOME IMAGE CARASOUL */
+    .image-carousel {
+        height: unset;
+        max-height: 55vh;
+    }
+    .swiper-container {
+        height: unset;
+    }
+}
+
+@media (max-width: 576px) {
+    /* SECTION 1 */
+    .logo {
+        width: 40%;
+    }
+    /* HOME IMAGE CARASOUL */
+    .image-carousel {
+        height: unset;
+        max-height: 50vh;
+    }
+    .swiper-container {
+        height: unset;
     }
 }
