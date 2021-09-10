@@ -146,6 +146,7 @@ hr {
 
 .image-carousel {
     height: 100vh;
+    overflow-x: hidden;
     background-color: #f6f3e8;
 }
 

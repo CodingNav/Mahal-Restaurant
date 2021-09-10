@@ -47,41 +47,44 @@ if (document.querySelector(".mySwiper")) {
   });
 }
 
-var contactForm = document.querySelector("#contact-form");
 
-contactForm.addEventListener('submit', function (e) {
-  e.preventDefault();
-  var nameInput = document.querySelector("#name-input");
-  var emailInput = document.querySelector("#email-input");
-  var numberInput = document.querySelector("#number-input");
-  var subjectInput = document.querySelector("#subject-input");
-  var messageInput = document.querySelector("#message-input");
-  var submitButton = document.querySelector("#submit-button");
+if (window.location.pathname.indexOf("/contact.html") > -1) {
+  var contactForm = document.querySelector("#contact-form");
 
-  submitButton.disabled = true;
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var nameInput = document.querySelector("#name-input");
+    var emailInput = document.querySelector("#email-input");
+    var numberInput = document.querySelector("#number-input");
+    var subjectInput = document.querySelector("#subject-input");
+    var messageInput = document.querySelector("#message-input");
+    var submitButton = document.querySelector("#submit-button");
 
-  var emailData = {
-    name: nameInput.value,
-    email: emailInput.value,
-    number: numberInput.value,
-    subject: subjectInput.value,
-    message: messageInput.value
-  }
+    submitButton.disabled = true;
 
-  fetch('https://mahal-email.herokuapp.com/api/send-email', {
-    method: 'post',
-    body: JSON.stringify(emailData),
-    headers: {
-      'Accept': 'application/json, text/plain, */*',
-      'Content-Type': 'application/json'
+    var emailData = {
+      name: nameInput.value,
+      email: emailInput.value,
+      number: numberInput.value,
+      subject: subjectInput.value,
+      message: messageInput.value
     }
-  }).then(function (response) {
-    return response.json();
-  }).then(function (data) {
-    contactForm.innerHTML = `<p class="text-center">Thank you for submitting.<br>We will be in contact with you soon.</p>`
-  });
-});
 
-document.addEventListener('scroll', function() {
-  
-});
+    fetch('https://mahal-email.herokuapp.com/api/send-email', {
+      method: 'post',
+      body: JSON.stringify(emailData),
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      }
+    }).then(function (response) {
+      return response.json();
+    }).then(function (data) {
+      contactForm.innerHTML = `<p class="text-center">Thank you for submitting.<br>We will be in contact with you soon.</p>`
+    });
+  });
+
+  document.addEventListener('scroll', function () {
+
+  });
+}
